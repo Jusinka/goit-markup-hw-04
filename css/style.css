@@ -24,6 +24,7 @@ button{
     margin-left: auto;
     margin-right: auto;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 button:hover,
 button:focus{
@@ -43,6 +44,7 @@ h1 ,h2 ,h3 ,h4 ,h5 ,h6 ,ul ,p{
     color: #4D5AE5;
     text-decoration: none;
     margin-right: 76px;
+    
 }
 .logo_half{
     color:#2e2f42;
@@ -66,12 +68,17 @@ h1 ,h2 ,h3 ,h4 ,h5 ,h6 ,ul ,p{
     font-size: 16px;
     line-height:1.5;
     letter-spacing:0.02em;
-    color: #2e2f42;
     text-decoration: none;
     padding-top: 24px;
     padding-bottom: 24px;
     display: block;
+    position: relative;
+    color: #404bbf;
 }
+.nav_link{
+
+}
+
 .nav_link:hover{
     color: #404bbf;
 }
@@ -122,9 +129,10 @@ h1 ,h2 ,h3 ,h4 ,h5 ,h6 ,ul ,p{
         ),
     url(/images/background_image_main.jpg);    
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     background-position: center;
-    
+    max-width: 1440px;
+
 }
 .main_title{
     font-size:56px;
@@ -178,6 +186,7 @@ img{
 
 .header{
     border-bottom: 1px solid #e7e9fc;
+    box-shadow:  0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .container{
     width: 1158px;
@@ -188,6 +197,17 @@ img{
 .nav{
     display: flex;
     align-items: center;
+    color: #404BBF;
+    position: relative;
+}
+.nav::after{
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    height: 4px;
+    background-color: #404BBF;
+    border-radius: 2px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .container_nav{
     display: flex;
