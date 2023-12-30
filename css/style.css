@@ -118,7 +118,7 @@ h1 ,h2 ,h3 ,h4 ,h5 ,h6 ,ul ,p{
 }
 .main_section{
     background-color: #2e2f42;
-    padding-top: 188px;
+    padding-top:188px ;
     padding-bottom: 188px;
     background-image:linear-gradient(
         to bottom, 
@@ -130,6 +130,7 @@ h1 ,h2 ,h3 ,h4 ,h5 ,h6 ,ul ,p{
     background-size: cover;
     background-position: center;
     max-width: 1440px;
+    margin: auto;
 
 }
 .main_title{
