@@ -31,7 +31,7 @@ button:focus{
     background-color: #404BBF;
 }
 h1 ,h2 ,h3 ,h4 ,h5 ,h6 ,ul ,p{
-    margin: 0px;
+    margin: 0;
 }
 .logo{
     font-family:Raleway,sans-serif;
@@ -328,7 +328,9 @@ img{
 .svg_team{
     fill: #F4F4FD;
 }
-.links :hover,
+.links :hover{
+    background-color: #404bbf;
+}
 .links :focus{
     background-color: #404bbf;
 }
