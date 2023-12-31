@@ -1,3 +1,8 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 body{
     color: #434455;
     background-color:#FFFFFF;
@@ -194,6 +199,13 @@ img{
     margin:0 auto;
 
 }
+.container_footer{
+    width: 1158px;
+    padding:0 15px 0 15px;
+    margin:0 auto;
+    display: flex;
+    align-items: baseline;
+}
 .nav{
     display: flex;
     align-items: center;
@@ -335,4 +347,21 @@ img{
 }
 .links :focus{
     background-color: #404bbf;
+}
+.footer_socials{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+.social_links_footer{
+    display: flex;
+    gap: 16px;
+    list-style: none;
+
+}
+.social_icons{
+
 }
