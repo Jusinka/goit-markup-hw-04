@@ -371,3 +371,9 @@ img{
     color: #FFFFFF;
     margin-bottom: 16px;
 }
+.links_footer:hover{
+    background-color: #31d0aa;
+}
+.links_footer:focus{
+    background-color: #31d0aa;
+}
