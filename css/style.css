@@ -342,10 +342,10 @@ img{
 .svg_team{
     fill: #F4F4FD;
 }
-.links :hover{
+.links:hover{
     background-color: #404bbf;
 }
-.links :focus{
+.links:focus{
     background-color: #404bbf;
 }
 .social_links_footer{
@@ -357,7 +357,7 @@ img{
 .social_links_footer{
     display: flex;
     gap: 16px;
-    
+    padding: 0;
 }
 .footer_info{
     margin-right: 120px;
