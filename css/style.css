@@ -348,20 +348,26 @@ img{
 .links :focus{
     background-color: #404bbf;
 }
-.footer_socials{
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #FFFFFF;
-    margin-bottom: 16px;
-}
 .social_links_footer{
     display: flex;
     gap: 16px;
     list-style: none;
 
 }
-.social_icons{
+.social_links_footer{
+    display: flex;
+    gap: 16px;
+    
+}
+.footer_info{
+    margin-right: 120px;
 
+}
+.second_paragraph{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin-bottom: 16px;
 }
